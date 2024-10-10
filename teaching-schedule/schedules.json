@@ -2,36 +2,144 @@
     "2024-2025": {
         "semester1": [
             {
-                "hari": "Senin",
-                "jam": "08:00 - 10:00",
-                "ruangan": "101",
-                "kodeMK": "TT101",
-                "mk": "Dasar Telekomunikasi",
-                "dosen": "Dr. Nanang Cahyadi",
-                "teamTeaching": "Tidak Ada",
-                "kelas": "A"
+                "hari": "SENIN",
+                "jam": "09:30 - 10:30",
+                "ruangan": "RKA.KJ.01.001",
+                "kodeMK": "UCK1FDB1",
+                "mk": "INTERNALISASI BUDAYA DAN PEMBENTUKAN KARAKTER",
+                "dosen": "NCY",
+                "teamTeaching": "NCY",
+                "kelas": "S1TT-KJ-24-03"
             },
             {
-                "hari": "Minggu",
-                "jam": "10:00 - 12:00",
-                "ruangan": "102",
-                "kodeMK": "TT202",
-                "mk": "Teknik Digital",
-                "dosen": "Dr. Nanang Cahyadi",
-                "teamTeaching": "Prof. A",
-                "kelas": "B"
-            }
-        ],
-        "semester2": [
+                "hari": "SENIN",
+                "jam": "11:30 - 14:30",
+                "ruangan": "RLA.KJ.02.013",
+                "kodeMK": "AAK2AAB1",
+                "mk": "PRAKTIKUM TEKNIK TELEKOMUNIKASI 1",
+                "dosen": "NCY",
+                "teamTeaching": "NCY_SES",
+                "kelas": "S1TT-KJ-23-04"
+            },
             {
-                "hari": "Senin",
-                "jam": "09:00 - 11:00",
-                "ruangan": "118",
-                "kodeMK": "TT303",
-                "mk": "Jaringan Telekomunikasi",
-                "dosen": "Dr. Nanang Cahyadi",
-                "teamTeaching": "Tidak Ada",
-                "kelas": "A"
+                "hari": "SENIN",
+                "jam": "14:30 - 17:30",
+                "ruangan": "RKA.KJ.01.007",
+                "kodeMK": "AZK2DAB3",
+                "mk": "RANGKAIAN LISTRIK",
+                "dosen": "NCY",
+                "teamTeaching": "NCY",
+                "kelas": "S1TT-KJ-23-04"
+            },
+            {
+                "hari": "SENIN",
+                "jam": "18:30 - 21:30",
+                "ruangan": "RKA.KJ.01.007",
+                "kodeMK": "AAK3FAB3",
+                "mk": "KEAMANAN DATA DAN BLOKCHAIN",
+                "dosen": "NCY",
+                "teamTeaching": "NCY_FAV",
+                "kelas": "S1TT-22-101"
+            },
+            {
+                "hari": "SELASA",
+                "jam": "07:30 - 10:30",
+                "ruangan": "RLA.KJ.02.014",
+                "kodeMK": "AAK3AAB1",
+                "mk": "PRAKTIKUM TEKNIK TELEKOMUNIKASI 3",
+                "dosen": "NCY",
+                "teamTeaching": "YSH_SVR_VVM_NCY",
+                "kelas": "S1TT-22-001"
+            },
+            {
+                "hari": "SELASA",
+                "jam": "10:30 - 13:30",
+                "ruangan": "RLA.KJ.02.013",
+                "kodeMK": "AAK2AAB1",
+                "mk": "PRAKTIKUM TEKNIK TELEKOMUNIKASI 1",
+                "dosen": "NCY",
+                "teamTeaching": "NCY_SES",
+                "kelas": "S1TT-KJ-23-02"
+            },
+            {
+                "hari": "SELASA",
+                "jam": "13:30 - 16:30",
+                "ruangan": "RKA.KJ.01.002",
+                "kodeMK": "AZK2DAB3",
+                "mk": "RANGKAIAN LISTRIK",
+                "dosen": "NCY",
+                "teamTeaching": "NCY",
+                "kelas": "S1TT-KJ-23-03"
+            },
+            {
+                "hari": "RABU",
+                "jam": "06:30 - 09:30",
+                "ruangan": "RKA.KJ.02.016",
+                "kodeMK": "AAK4WBB3",
+                "mk": "INTERNET OF THINGS: PROTOKOL, PLATFORM, DAN AI",
+                "dosen": "NCY",
+                "teamTeaching": "NCY",
+                "kelas": "S1TT-21-001"
+            },
+            {
+                "hari": "RABU",
+                "jam": "07:30 - 10:30",
+                "ruangan": "RLA.KJ.02.013",
+                "kodeMK": "AAK2AAB1",
+                "mk": "PRAKTIKUM TEKNIK TELEKOMUNIKASI 1",
+                "dosen": "NCY",
+                "teamTeaching": "NCY_SES",
+                "kelas": "S1TT-KJ-23-03"
+            },
+            {
+                "hari": "RABU",
+                "jam": "13:30 - 16:30",
+                "ruangan": "RKA.KJ.01.007",
+                "kodeMK": "AAK3FAB3",
+                "mk": "KEAMANAN DATA DAN BLOKCHAIN",
+                "dosen": "NCY",
+                "teamTeaching": "NCY",
+                "kelas": "S1TT-22-001"
+            },
+            {
+                "hari": "KAMIS",
+                "jam": "13:30 - 16:30",
+                "ruangan": "RLA.KJ.02.013",
+                "kodeMK": "AAK2AAB1",
+                "mk": "PRAKTIKUM TEKNIK TELEKOMUNIKASI 1",
+                "dosen": "NCY",
+                "teamTeaching": "NCY_SES",
+                "kelas": "S1TT-KJ-23-01"
+            },
+            {
+                "hari": "JUMAT",
+                "jam": "12:30 - 15:30",
+                "ruangan": "RKA.KJ.01.001",
+                "kodeMK": "AZK1FAB3",
+                "mk": "KALKULUS 2",
+                "dosen": "NCY",
+                "teamTeaching": "NCY",
+                "kelas": "TTX-46-TUJ"
+            },
+            {
+                "hari": "JUMAT",
+                "jam": "18:30 - 21:30",
+                "ruangan": "RKA.KJ.01.018",
+                "kodeMK": "AAK4WBB3",
+                "mk": "INTERNET OF THINGS: PROTOKOL, PLATFORM, DAN AI",
+                "dosen": "NCY",
+                "teamTeaching": "NCY_YJA",
+                "kelas": "S1TT-21-101"
+            },
+            {
+                "hari": "SABTU",
+                "jam": "08:30 - 11:30",
+                "ruangan": "RLA.KJ.02.014",
+                "kodeMK": "AAK3AAB1",
+                "mk": "PRAKTIKUM TEKNIK TELEKOMUNIKASI 3",
+                "dosen": "NCY",
+                "teamTeaching": "NCY_KLA_SVR_VVM",
+                "kelas": "S1TT-22-101"
             }
         ]
     }
