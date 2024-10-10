@@ -73,7 +73,7 @@
                 const semester = semesterSelect.value;
 
                 // Fetch the schedule data from the JSON file
-                fetch('teaching-schedule/schedules.json')
+                fetch('schedules.json')
                     .then(response => response.json())
                     .then(data => {
                         const schedules = data[year][semester] || [];
