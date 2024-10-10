@@ -1,0 +1,58 @@
+{
+    "2024-2025": {
+        "semester1": [
+            {
+                "hari": "Senin",
+                "jam": "09:30 - 10:30",
+                "ruangan": "RKA.KJ.01.001",
+                "kodeMK": "UCK1FDB1",
+                "mk": "INTERNALISASI BUDAYA DAN PEMBENTUKAN KARAKTER",
+                "dosen": "NCY",
+                "teamTeaching": "NCY",
+                "kelas": "S1TT-KJ-24-03"
+            },
+            {
+                "hari": "Senin",
+                "jam": "11:30 - 14:30",
+                "ruangan": "RLA.KJ.02.013",
+                "kodeMK": "AAK2AAB1",
+                "mk": "PRAKTIKUM TEKNIK TELEKOMUNIKASI 1",
+                "dosen": "NCY",
+                "teamTeaching": "NCY_SES",
+                "kelas": "S1TT-KJ-23-04"
+            },
+            {
+                "hari": "Senin",
+                "jam": "14:30 - 17:30",
+                "ruangan": "RKA.KJ.01.007",
+                "kodeMK": "AZK2DAB3",
+                "mk": "RANGKAIAN LISTRIK",
+                "dosen": "NCY",
+                "teamTeaching": "NCY",
+                "kelas": "S1TT-KJ-23-04"
+            }
+        ],
+        "semester2": [
+            {
+                "hari": "Selasa",
+                "jam": "10:30 - 13:30",
+                "ruangan": "RLA.KJ.02.013",
+                "kodeMK": "AAK2AAB1",
+                "mk": "PRAKTIKUM TEKNIK TELEKOMUNIKASI 1",
+                "dosen": "NCY",
+                "teamTeaching": "NCY_SES",
+                "kelas": "S1TT-KJ-23-02"
+            },
+            {
+                "hari": "Jumat",
+                "jam": "12:30 - 15:30",
+                "ruangan": "RKA.KJ.01.001",
+                "kodeMK": "AZK1FAB3",
+                "mk": "KALKULUS 2",
+                "dosen": "NCY",
+                "teamTeaching": "NCY",
+                "kelas": "TTX-46-TUJ"
+            }
+        ]
+    }
+}
