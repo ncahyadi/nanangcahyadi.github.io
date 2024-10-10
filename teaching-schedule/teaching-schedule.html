@@ -41,7 +41,7 @@
             const scheduleTableBody = document.getElementById('scheduleTable').querySelector('tbody');
 
             const loadSchedule = (semester) => {
-                fetch('data/schedules-2024-2025.json')
+                fetch('teaching-schedule/schedules-2024-2025.json')
                     .then(response => response.json())
                     .then(data => {
                         const [year, sem] = semester.split('/');
