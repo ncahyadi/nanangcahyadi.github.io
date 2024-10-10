@@ -2,29 +2,37 @@
     "2024-2025": {
         "semester1": [
             {
-                "hari": "Monday",
+                "hari": "Senin",
                 "jam": "08:00 - 10:00",
                 "ruangan": "101",
-                "kodeMK": "TELE101",
-                "mk": "Introduction to Telecommunication",
-                "dosen": "Nanang Cahyadi",
-                "teamTeaching": "Dr. Ali",
+                "kodeMK": "TT101",
+                "mk": "Dasar Telekomunikasi",
+                "dosen": "Dr. Nanang Cahyadi",
+                "teamTeaching": "Tidak Ada",
                 "kelas": "A"
+            },
+            {
+                "hari": "Rabu",
+                "jam": "10:00 - 12:00",
+                "ruangan": "102",
+                "kodeMK": "TT202",
+                "mk": "Teknik Digital",
+                "dosen": "Dr. Nanang Cahyadi",
+                "teamTeaching": "Prof. A",
+                "kelas": "B"
             }
-            // More entries as needed
         ],
         "semester2": [
             {
-                "hari": "Tuesday",
-                "jam": "10:00 - 12:00",
+                "hari": "Selasa",
+                "jam": "09:00 - 11:00",
                 "ruangan": "118",
-                "kodeMK": "TELE202",
-                "mk": "Advanced Networking",
-                "dosen": "Nanang Cahyadi",
-                "teamTeaching": "Prof. Budi",
-                "kelas": "B"
+                "kodeMK": "TT303",
+                "mk": "Jaringan Telekomunikasi",
+                "dosen": "Dr. Nanang Cahyadi",
+                "teamTeaching": "Tidak Ada",
+                "kelas": "A"
             }
-            // More entries as needed
         ]
     }
 }
