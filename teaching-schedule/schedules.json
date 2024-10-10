@@ -1,32 +1,4 @@
 {
-    "2023-2024": {
-        "semester1": [
-            {
-                "hari": "Senin",
-                "jam": "09:30 - 10:30",
-                "ruangan": "RKA.KJ.01.001",
-                "kodeMK": "UCK1FDB1",
-                "mk": "INTERNALISASI BUDAYA DAN PEMBENTUKAN KARAKTER",
-                "dosen": "NCY",
-                "teamTeaching": "NCY",
-                "kelas": "S1TT-KJ-24-03"
-            }
-            // Tambahkan data lainnya...
-        ],
-        "semester2": [
-            {
-                "hari": "Selasa",
-                "jam": "10:30 - 13:30",
-                "ruangan": "RLA.KJ.02.013",
-                "kodeMK": "AAK2AAB1",
-                "mk": "PRAKTIKUM TEKNIK TELEKOMUNIKASI 1",
-                "dosen": "NCY",
-                "teamTeaching": "NCY_SES",
-                "kelas": "S1TT-KJ-23-02"
-            }
-            // Tambahkan data lainnya...
-        ]
-    },
     "2024-2025": {
         "semester1": [
             {
@@ -182,34 +154,6 @@
                 "kelas": "TTX-46-TUJ"
             }
             // Tambahkan data lainnya...
-        ]
-    },
-    "2025-2026": {
-        "semester1": [
-            {
-                "hari": "Rabu",
-                "jam": "06:30 - 09:30",
-                "ruangan": "RKA.KJ.02.016",
-                "kodeMK": "AAK4WBB3",
-                "mk": "INTERNET OF THINGS: PROTOKOL, PLATFORM, DAN AI",
-                "dosen": "NCY",
-                "teamTeaching": "NCY",
-                "kelas": "S1TT-21-001"
-            }
-            // Tambahkan data lainnya...
-        ],
-        "semester2": [
-            {
-                "hari": "Sabtu",
-                "jam": "08:30 - 11:30",
-                "ruangan": "RLA.KJ.02.014",
-                "kodeMK": "AAK3AAB1",
-                "mk": "PRAKTIKUM TEKNIK TELEKOMUNIKASI 3",
-                "dosen": "NCY",
-                "teamTeaching": "NCY_KLA_SVR_VVM",
-                "kelas": "S1TT-22-101"
-            }
-            // Tambahkan data lainnya...
-        ]
+        ]    
     }
 }
