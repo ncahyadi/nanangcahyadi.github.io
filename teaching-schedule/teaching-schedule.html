@@ -70,16 +70,18 @@
                 const year = yearSelect.value;
                 const semester = semesterSelect.value;
 
-                // Fetch the schedule data from the JSON file
                 fetch('schedules.json')
-                    .then(response => response.json())
+                    .then(response => {
+                        console.log('Response:', response);
+                        return response.json();
+                    })
                     .then(data => {
+                        console.log('Data:', data);
                         const schedules = data[year][semester] || [];
+                        console.log('Schedules:', schedules);
 
-                        // Clear the table before loading new data
                         scheduleTableBody.innerHTML = '';
 
-                        // Populate the table with the fetched data
                         schedules.forEach(schedule => {
                             const row = document.createElement('tr');
                             row.innerHTML = `
@@ -98,10 +100,7 @@
                     .catch(error => console.error('Error loading schedule:', error));
             };
 
-            // Load the schedule initially
             loadSchedule();
-
-            // Reload the schedule when year or semester is changed
             yearSelect.addEventListener('change', loadSchedule);
             semesterSelect.addEventListener('change', loadSchedule);
         });
