@@ -8,74 +8,109 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- LinkedIn Badge Script -->
     <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+    <!-- Bootstrap Icons (for GitHub icon) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-        <a class="navbar-brand" href="../index.html">My GitHub Pages</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        More
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="index.html">Home</a></li>
-                        <li><a class="dropdown-item" href="teaching-schedule/teaching-schedule.html">Teaching Schedule</a></li>
-                        <li><a class="dropdown-item" href="research-map.html">Research Mapping</a></li>
-                        <li><a class="dropdown-item" href="community-services.html">Community Service</a></li>
-                    </ul>
-                </li>
-            </ul>
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">My GitHub Pages</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="teaching-schedule/teaching-schedule.html">Teaching Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="research-map.html">Research Mapping</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="community-services.html">Community Service</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
+    </nav>
 
     <div class="container mt-5">
-        <div class="text-center">
+        <div class="text-center mb-4">
             <h1 class="display-4">Welcome to My GitHub Pages</h1>
-            <p class="lead">Explore my academic journey and research interests through the various sections of this website:</p>
-        </div>
-        <div class="row text-center mt-4">
-            <div class="col-md-3">
-                <h4>Home</h4>
-                <p>An introduction to the website and a starting point for navigating through my work and interests.</p>
-            </div>
-            <div class="col-md-3">
-                <h4>Teaching Schedule</h4>
-                <p>Find detailed information about the courses I teach, including schedules and useful resources for students.</p>
-            </div>
-            <div class="col-md-3">
-                <h4>Research Mapping</h4>
-                <p>Get insights into my key research areas, including core fields, subfields, and related publications.</p>
-            </div>
-            <div class="col-md-3">
-                <h4>Community Services</h4>
-                <p>Learn about my community service activities, aligned with the Sustainable Development Goals (SDGs).</p>
-            </div>
+            <p class="lead">Explore my academic journey and research interests through the various sections of this website.</p>
         </div>
 
-        <!-- Embed LinkedIn Profile Badge -->
-        <div class="text-center mt-5">
-            <h4>Connect with me on LinkedIn</h4>
-            <div class="d-flex justify-content-center">
-                <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="nanangcahyadi" data-version="v1">
-                    <a class="badge-base__link LI-simple-link" href="https://id.linkedin.com/in/nanangcahyadi?trk=profile-badge">Nanang C.</a>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Home</h5>
+                        <p class="card-text">An introduction to the website and a starting point for navigating through my work and interests.</p>
+                        <a href="index.html" class="btn btn-primary">Learn More</a>
+                    </div>
                 </div>
             </div>
-            <p class="mt-2">Follow me for updates on my latest research and community service activities.</p>
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Teaching Schedule</h5>
+                        <p class="card-text">Find detailed information about the courses I teach, including schedules and useful resources for students.</p>
+                        <a href="teaching-schedule/teaching-schedule.html" class="btn btn-primary">View Schedule</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Research Mapping</h5>
+                        <p class="card-text">Get insights into my key research areas, including core fields, subfields, and related publications.</p>
+                        <a href="research-map.html" class="btn btn-primary">Explore Research</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <h5 class="card-title">Community Services</h5>
+                        <p class="card-text">Learn about my community service activities, aligned with the Sustainable Development Goals (SDGs).</p>
+                        <a href="community-services.html" class="btn btn-primary">Discover More</a>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <!-- Embed GitHub Profile -->
+        <!-- Social Media Section -->
         <div class="text-center mt-5">
-            <h4>Explore my GitHub Repositories</h4>
-            <a href="https://github.com/ncahyadi" target="_blank" class="btn btn-dark">
-                <i class="bi bi-github"></i> Visit My GitHub Profile
-            </a>
-            <p class="mt-2">Check out my projects and contributions in open-source communities.</p>
+            <h4>Connect with Me</h4>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">LinkedIn</h5>
+                            <div class="d-flex justify-content-center">
+                                <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="nanangcahyadi" data-version="v1">
+                                    <a class="badge-base__link LI-simple-link" href="https://id.linkedin.com/in/nanangcahyadi?trk=profile-badge">Nanang C.</a>
+                                </div>
+                            </div>
+                            <p class="mt-2">Follow me for updates on my latest research and community service activities.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">GitHub</h5>
+                            <a href="https://github.com/ncahyadi" target="_blank" class="btn btn-dark">
+                                <i class="bi bi-github"></i> Visit My GitHub Profile
+                            </a>
+                            <p class="mt-2">Check out my projects and contributions in open-source communities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
