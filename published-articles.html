@@ -104,13 +104,22 @@
 
     <!-- Script to Filter Articles by Category -->
     <script>
+        // Function to hide all articles when the page loads
+        document.addEventListener("DOMContentLoaded", function() {
+            const articles = document.querySelectorAll('.list-group-item');
+            articles.forEach(article => {
+                article.style.display = 'none'; // Hide all articles initially
+            });
+        });
+
+        // Function to filter articles by category
         function filterArticles(category) {
             const articles = document.querySelectorAll('.list-group-item');
             articles.forEach(article => {
                 if (article.getAttribute('data-category') === category) {
-                    article.style.display = 'block';
+                    article.style.display = 'block'; // Show articles matching the category
                 } else {
-                    article.style.display = 'none';
+                    article.style.display = 'none'; // Hide non-matching articles
                 }
             });
         }
