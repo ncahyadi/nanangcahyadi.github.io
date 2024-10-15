@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://ncahyadi.github.io/sitemap.xml
